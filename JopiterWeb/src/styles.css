@@ -1,0 +1,77 @@
+/* Comandos gerais */
+body{
+    font-family: sans-serif;
+}
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+li{
+    color:orange;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+header, .navbar{
+    background-color: rgba(0, 156, 59, 0.78);
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 50px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color:white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+#navbar-links a{
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .navlink{
+    padding: 1rem .8rem;
+}
+
+/* Container principal*/
+#main{
+    padding-top: 80px;
+}
+#botaoRecomendacao{
+    justify-content: center;
+    align-items: center;
+}
+/* Colunas da esquerda do main container*/
+#botaoEnter{
+    margin-top: 10px;
+    background-color: rgba(0, 156, 59, 0.78);
+    border-color: rgba(0, 156, 59, 0.78);
+    border-radius: 50px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}    
+#inputText{
+    border-color: rgba(66, 255, 0, 1);
+    border-radius: 10px;
+}
+#centralizar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+#barra{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

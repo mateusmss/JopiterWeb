@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Jopiterweb</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/dc09661934.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body id="backgroundColor">
+        <header>
+            <div class="container" id="nav-container">
+                <nav class="navbar navbar-expand-lg fixed-top">
+                    <a href="#" class="navbar-brand">
+                        <img src="../Imgs/logo.png" alt="Logo" id="logo">
+                    </a>
+                    <!--Menu hamburguer para dispositivos mobile-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-label="Toggle navigation">
+                        <span class="navbar-toggle-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                        <!--<div class="navbar-nav">
+                            <a class="nav-item nav-link" id="home-menu">Home</a>
+                        </div>-->
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div id="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>
+                           Cardápio sustentável 
+                        </h3>
+                        <p>Incentivando cardápios sustentáveis nos campi da USP</p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Digite o prato proteico" aria-label="prato proteico" aria-describedby="basic-addon1" id="inputText">
+                            <div class="input-group-prepend">     
+                              </div>
+                          </div>
+                          <div class="btn-toolbar" id="botaoRecomendacao">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-md active">
+                                    <button type="button" class="btn btn-outline-secondary" >Pão com ovo</button>
+                                    <button type="button" class="btn btn-outline-secondary" >Macarrão</button>
+                                </label>
+                              </div>
+                          </div>
+                          <div class="btn-toolbar" id="botaoRecomendacao">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-md active">
+                                    <button type="button" class="btn btn-primary btn-lg " id="botaoEnter">Clique para resultados</button>
+                                </label>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-deck">
+                            <div class="card">
+                              <img class="card-img-top" src="../Imgs/grupoAlimentar.png" alt="Imagem de capa do card 1">
+                              <div class="card-body">
+                                <h5 class="card-title">Grupo alimentar</h5>
+                                
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img class="card-img-top" src="../Imgs/menu.jpg" alt="Imagem de capa do card 2">
+                              <div class="card-body">
+                                <h5 class="card-title">Modo de preparo</h5>
+                                
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img class="card-img-top" src="../Imgs/cor.jpg" alt="Imagem de capa do card 3">
+                              <div class="card-body">
+                                <h5 class="card-title">Cores</h5>
+                                
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../javascript/scripts.js"></script>
+    </body>
+</html>
